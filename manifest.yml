@@ -1,0 +1,22 @@
+modules:
+  macro:
+    - key: conf-macro-flexbox-hello-world-macro
+      resource: main
+      render: native
+      resolver:
+        function: resolver
+      title: conf-macro-flexbox
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+app:
+  id: ari:cloud:ecosystem::app/b804e381-f907-4750-ab6f-b45ab7b0bc84
+permissions:
+  scopes: []
+  external:
+    images:
+      - i.imgur.com
+      - imgur.com
