@@ -13,7 +13,7 @@ resources:
   - key: main
     path: src/frontend/index.jsx
 app:
-  id: ari:cloud:ecosystem::app/b804e381-f907-4750-ab6f-b45ab7b0bc84
+  id: <your-app-id>
 permissions:
   scopes: []
   external:
